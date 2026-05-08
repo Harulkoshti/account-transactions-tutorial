@@ -1,0 +1,33 @@
+{
+  "name": "account-transactions-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harulkoshti/account-transactions-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harulkoshti/account-transactions-tutorial/issues"
+  },
+  "homepage": "https://github.com/Harulkoshti/account-transactions-tutorial#readme",
+  "description": "",
+  "dependencies": {
+    "hardhat": "^3.4.5",
+    "web3": "^4.16.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.1.5",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.5",
+    "@types/node": "^22.19.18",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "typescript": "~5.8.0",
+    "viem": "^2.48.11"
+  }
+}
